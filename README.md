@@ -72,6 +72,9 @@ El Model Context Protocol (MCP) es un protocolo que permite a los modelos de len
 # Crear un entorno virtual
 py -m venv .venv
 
+# Ejecutamos esto si es la primera vez que usamos Python (Solo en Windows)
+Set-ExecutionPolicy Unrestricted -Force
+
 # Activar el entorno virtual
 ./.venv/scripts/activate
 ```
